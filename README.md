@@ -1,3 +1,3 @@
 # ChessPuzzles
 
-Learn more at [deluf.github.io/projects/chesspuzzles/](deluf.github.io/projects/chesspuzzles/)
+Learn more at [deluf.github.io/projects/chesspuzzles/](https://deluf.github.io/projects/chesspuzzles/)
