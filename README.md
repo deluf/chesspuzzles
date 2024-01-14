@@ -1,2 +1,3 @@
-# chesspuzzles
-ChessPuzzles is a Java 11 Spring application which wraps chess.com's puzzle api for a JavaFX client
+# ChessPuzzles
+
+Learn more at [deluf.github.io/projects/chesspuzzles/](deluf.github.io/projects/chesspuzzles/)
