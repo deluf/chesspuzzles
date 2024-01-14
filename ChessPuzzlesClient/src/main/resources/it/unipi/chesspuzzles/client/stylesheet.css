@@ -1,0 +1,181 @@
+
+/*
+ * Everyone
+ */
+
+* {
+    main-orange: #CD803B;
+    light-orange: #D7995F;
+    main-green: #8CB557;
+    dark-green: #517240;
+    main-background: #272420;
+    light-background: #302E2C;
+    main-blue: #449CD4;
+    light-blue: #6aaeff;
+    dark-blue: #3B759B;
+    solved: #D0FF90;
+    failed: #FF5D5D;
+    failed-light: #FF8484;
+    failed-dark: #B64F4F;
+}
+
+* {
+    -fx-font-family: Montserrat;
+}
+
+.root {
+    -fx-background-color: main-background;
+}
+
+.label {
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-focus-color: light-orange;
+    -fx-faint-focus-color: light-orange;
+}
+
+.text-field {
+    -fx-font-size: 15;
+    -fx-focus-color: light-orange;
+    -fx-faint-focus-color: light-orange;
+}
+
+.button {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.green-button {
+    -fx-background-color: main-green;
+}
+.green-button:hover {
+    -fx-background-color: dark-green;
+}
+
+.blue-button {
+    -fx-background-color: main-blue;
+}
+.blue-button:hover {
+    -fx-background-color: dark-blue;
+}
+
+.orange-button {
+    -fx-background-color: main-orange;
+}
+.orange-button:hover {
+    -fx-background-color: light-orange;
+}
+
+.link-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: main-blue;
+}
+.link-button:hover {
+    -fx-text-fill: dark-blue;
+}
+
+.title {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+
+/*
+ * authentication.fxml
+ */
+
+#authenticationErrorLabel {
+    -fx-text-fill: failed;
+    -fx-font-weight: bold;
+}
+
+
+/*
+ * main.fxml
+ */
+
+.chart-title {
+    -fx-font-weight: bold;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: solved;
+}
+
+.default-color1.chart-bar {
+    -fx-bar-fill: light-blue;
+}
+
+.default-color2.chart-bar {
+    -fx-bar-fill: failed-dark;
+}
+
+.chart-plot-background, .chart-legend {
+    -fx-background-color: light-background;
+}
+
+.chart-tooltip {
+    -fx-font-size: 15;
+}
+
+/*
+ * favourites.fxml
+ */
+
+#favouritesTable {
+    -fx-background-color: transparent;
+}
+
+#favouritesTable .column-header {
+    -fx-background-color: main-blue;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15;
+}
+
+#favouritesTable .table-cell {
+    -fx-alignment: center;
+    -fx-border-color: transparent;
+    -fx-padding: 10;
+    -fx-font-size: 15;
+    -fx-text-fill: #FFFFFF;
+}
+
+#favouritesTable .table-row-cell:hover {
+    -fx-background-color: dark-blue;
+}
+.table-row-cell:odd {
+    -fx-background-color: light-background;
+}
+.table-row-cell:even {
+    -fx-background-color: transparent;
+}
+
+.context-menu {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: light-background;
+    -fx-font-size: 15;
+}
+
+
+/*
+ * play.fxml
+ */
+
+.move-correct {
+    -fx-background-color: solved;
+}
+.move-wrong {
+    -fx-background-color: failed-light;
+}
+
+#timerLabel {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.puzzle-solved {
+    -fx-text-fill: solved;
+}

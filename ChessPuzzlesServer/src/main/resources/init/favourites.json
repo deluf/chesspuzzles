@@ -1,0 +1,177 @@
+[
+  {
+    "userId": 1,
+    "addTime": 1732726000,
+    "solved": false,
+    "puzzle": {
+      "title": "Lifting Your Spirits",
+      "publishTime": 1632726000,
+      "puzzleStates": [
+        {
+          "fen": "5rk1/1pp3b1/np5p/4Npp1/BPP5/P3RPP1/1K5P/8 b - - 0 1",
+          "correctMove": "f4"
+        },
+        {
+          "fen": "5rk1/1pp3b1/np5p/4N1p1/BPP2p2/P3RPP1/1K5P/8 w - - 0 2",
+          "correctMove": "gxf4"
+        },
+        {
+          "fen": "5rk1/1pp3b1/np5p/4N1p1/BPP2P2/P3RP2/1K5P/8 b - - 0 2",
+          "correctMove": "gxf4"
+        },
+        {
+          "fen": "5rk1/1pp3b1/np5p/4N3/BPP2p2/P3RP2/1K5P/8 w - - 0 3",
+          "correctMove": "Re4"
+        },
+        {
+          "fen": "5rk1/1pp3b1/np5p/4N3/BPP1Rp2/P4P2/1K5P/8 b - - 1 3",
+          "correctMove": "Rf5"
+        },
+        {
+          "fen": "6k1/1pp3b1/np5p/4Nr2/BPP1Rp2/P4P2/1K5P/8 w - - 2 4",
+          "correctMove": "#"
+        }
+      ]
+    }
+  },
+  {
+    "userId": 1,
+    "addTime": 1336067200,
+    "solved": true,
+    "puzzle": {
+      "title": "The Knight Revelation",
+      "publishTime": 1236067200,
+      "puzzleStates": [
+        {
+          "fen": "4rrk1/ppp3b1/3p3p/3P2p1/2PpN3/3Q1qP1/PP5P/R3R1K1 w - - 0 1",
+          "correctMove": "Qxf3"
+        },
+        {
+          "fen": "4rrk1/ppp3b1/3p3p/3P2p1/2PpN3/5QP1/PP5P/R3R1K1 b - - 0 1",
+          "correctMove": "Rxf3"
+        },
+        {
+          "fen": "4r1k1/ppp3b1/3p3p/3P2p1/2PpN3/5rP1/PP5P/R3R1K1 w - - 0 2",
+          "correctMove": "Nf6+"
+        },
+        {
+          "fen": "4r1k1/ppp3b1/3p1N1p/3P2p1/2Pp4/5rP1/PP5P/R3R1K1 b - - 1 2",
+          "correctMove": "Bxf6"
+        },
+        {
+          "fen": "4r1k1/ppp5/3p1b1p/3P2p1/2Pp4/5rP1/PP5P/R3R1K1 w - - 0 3",
+          "correctMove": "Rxe8+"
+        },
+        {
+          "fen": "4R1k1/ppp5/3p1b1p/3P2p1/2Pp4/5rP1/PP5P/R5K1 b - - 0 3",
+          "correctMove": "#"
+        }
+      ]
+    }
+  },
+  {
+    "userId": 1,
+    "addTime": 1600274800,
+    "solved": false,
+    "puzzle": {
+      "title": "Open Avenues",
+      "publishTime": 1500274800,
+      "puzzleStates": [
+        {
+          "fen": "1nkr3r/2pb1pb1/P2pq1p1/p2Np2p/2P5/3PP1PP/P4PB1/R1B2RK1 w - - 0 1",
+          "correctMove": "Ne7+"
+        },
+        {
+          "fen": "1nkr3r/2pbNpb1/P2pq1p1/p3p2p/2P5/3PP1PP/P4PB1/R1B2RK1 b - - 1 1",
+          "correctMove": "Qxe7"
+        },
+        {
+          "fen": "1nkr3r/2pbqpb1/P2p2p1/p3p2p/2P5/3PP1PP/P4PB1/R1B2RK1 w - - 0 2",
+          "correctMove": "Bb7#"
+        },
+        {
+          "fen": "1nkr3r/1Bpbqpb1/P2p2p1/p3p2p/2P5/3PP1PP/P4P2/R1B2RK1 b - - 1 2",
+          "correctMove": "#"
+        }
+      ]
+    }
+  },
+  {
+    "userId": 1,
+    "addTime": 1370710000,
+    "solved": false,
+    "puzzle": {
+      "title": "Mate in 4",
+      "publishTime": 1270710000,
+      "puzzleStates": [
+        {
+          "fen": "r1q1r3/p2bn1pk/6Np/1ppB1p2/5P2/2P3PN/PP5P/3Q1RK1 w - - 0 1",
+          "correctMove": "Ng5+"
+        },
+        {
+          "fen": "r1q1r3/p2bn1pk/6Np/1ppB1pN1/5P2/2P3P1/PP5P/3Q1RK1 b - - 1 1",
+          "correctMove": "Kxg6"
+        },
+        {
+          "fen": "r1q1r3/p2bn1p1/6kp/1ppB1pN1/5P2/2P3P1/PP5P/3Q1RK1 w - - 0 2",
+          "correctMove": "Bf7+"
+        },
+        {
+          "fen": "r1q1r3/p2bnBp1/6kp/1pp2pN1/5P2/2P3P1/PP5P/3Q1RK1 b - - 1 2",
+          "correctMove": "Kf6"
+        },
+        {
+          "fen": "r1q1r3/p2bnBp1/5k1p/1pp2pN1/5P2/2P3P1/PP5P/3Q1RK1 w - - 2 3",
+          "correctMove": "Qd6+"
+        },
+        {
+          "fen": "r1q1r3/p2bnBp1/3Q1k1p/1pp2pN1/5P2/2P3P1/PP5P/5RK1 b - - 3 3",
+          "correctMove": "Be6"
+        },
+        {
+          "fen": "r1q1r3/p3nBp1/3Qbk1p/1pp2pN1/5P2/2P3P1/PP5P/5RK1 w - - 4 4",
+          "correctMove": "Qe5#"
+        },
+        {
+          "fen": "r1q1r3/p3nBp1/4bk1p/1pp1QpN1/5P2/2P3P1/PP5P/5RK1 b - - 5 4",
+          "correctMove": "#"
+        }
+      ]
+    }
+  },
+  {
+    "userId": 1,
+    "addTime": 1656262000,
+    "solved": true,
+    "puzzle":  {
+      "title": "Botvinnik - Sharov, Leningrad 1928",
+      "publishTime": 1556262000,
+      "puzzleStates": [
+        {
+          "fen": "1rb2nk1/p1r1qppp/4p3/2P5/4B1N1/P5Q1/5PPP/R3R1K1 w Q - 0 1",
+          "correctMove": "Nf6+"
+        },
+        {
+          "fen": "1rb2nk1/p1r1qppp/4pN2/2P5/4B3/P5Q1/5PPP/R3R1K1 b Q - 1 1",
+          "correctMove": "Kh8"
+        },
+        {
+          "fen": "1rb2n1k/p1r1qppp/4pN2/2P5/4B3/P5Q1/5PPP/R3R1K1 w Q - 2 2",
+          "correctMove": "Ne8"
+        },
+        {
+          "fen": "1rb1Nn1k/p1r1qppp/4p3/2P5/4B3/P5Q1/5PPP/R3R1K1 b Q - 3 2",
+          "correctMove": "Qxe8"
+        },
+        {
+          "fen": "1rb1qn1k/p1r2ppp/4p3/2P5/4B3/P5Q1/5PPP/R3R1K1 w Q - 0 3",
+          "correctMove": "Qxc7"
+        },
+        {
+          "fen": "1rb1qn1k/p1Q2ppp/4p3/2P5/4B3/P7/5PPP/R3R1K1 b Q - 0 3",
+          "correctMove": "#"
+        }
+      ]
+    }
+  }
+]

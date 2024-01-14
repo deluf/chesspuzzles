@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.chesspuzzles.client.controllers.MainController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+   <Label fx:id="welcomeBackLabel" styleClass="title" text="Welcome back, {user}" />
+   <Button onAction="#logoutBtnClick" styleClass="link-button" text="Not you? Logout" />
+
+   <StackedBarChart fx:id="performanceChart" animated="false" categoryGap="45.0" legendSide="RIGHT" maxHeight="350.0" maxWidth="800.0" title="Your performace this week">
+      <xAxis>
+         <CategoryAxis label="Days of the week" side="BOTTOM" tickLabelFill="#EAEAEA">
+            <tickLabelFont>
+               <Font size="15.0" />
+            </tickLabelFont>
+         </CategoryAxis>
+      </xAxis>
+      <yAxis>
+         <NumberAxis label="Number of attemps" side="LEFT" tickLabelFill="#EAEAEA">
+            <tickLabelFont>
+               <Font size="15.0" />
+            </tickLabelFont>
+         </NumberAxis>
+      </yAxis>
+      <cursor>
+         <Cursor fx:constant="CROSSHAIR" />
+      </cursor>
+      <VBox.margin>
+         <Insets bottom="30.0" left="10.0" top="30.0" />
+      </VBox.margin>
+   </StackedBarChart>
+
+   <Button onAction="#playBtnClick" prefHeight="40.0" prefWidth="300.0" styleClass="green-button" text="Play" />
+
+   <Button onAction="#openFavouritesBtnClick" prefHeight="40.0" prefWidth="300.0" styleClass="green-button" text="Favourites">
+      <VBox.margin>
+         <Insets top="10.0" />
+      </VBox.margin>
+   </Button>
+</VBox>

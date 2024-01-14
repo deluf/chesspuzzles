@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.chesspuzzles.client.controllers.PlayController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="puzzleTitleLabel" styleClass="title" text="{Puzzle's title}" />
+
+    <HBox alignment="CENTER" spacing="30.0">
+        <VBox.margin>
+            <Insets bottom="20.0" top="20.0" />
+        </VBox.margin>
+
+        <StackPane>
+            <ImageView fx:id="chessboardImage" fitHeight="480.0" fitWidth="480.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_RIGHT">
+                <StackPane.margin>
+                    <Insets />
+                </StackPane.margin>
+                <Image url="@media/emptyBoard.png" />
+            </ImageView>
+            <ImageView fitHeight="480.0" fitWidth="480.0" pickOnBounds="true" preserveRatio="true">
+                <StackPane.margin>
+                    <Insets right="25.0" top="20.0" />
+                </StackPane.margin>
+                <Image url="@media/coordinates.png" />
+            </ImageView>
+        </StackPane>
+
+        <VBox alignment="CENTER" spacing="10.0">
+
+            <Label fx:id="timerLabel" alignment="CENTER" contentDisplay="CENTER" text="00:00">
+                <VBox.margin>
+                    <Insets bottom="20.0" />
+                </VBox.margin>
+            </Label>
+
+            <Label fx:id="colorToMoveLabel" text="{Color} to move" />
+
+            <TextField fx:id="userMoveField" alignment="CENTER" promptText="Move in algebraic notation" />
+
+            <Button fx:id="confirmMoveBtn" onAction="#confirmMoveBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="orange-button" text="Confirm move" />
+
+            <Label fx:id="hintLabel" text="Hint" visible="false">
+                <VBox.margin>
+                    <Insets />
+                </VBox.margin>
+            </Label>
+
+            <Button fx:id="hintBtn" onAction="#hintBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="blue-button" text="Hint" />
+            <Button fx:id="giveUpBtn" onAction="#giveUpBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="blue-button" text="Give up" />
+            <Button fx:id="addToFavouritesBtn" onAction="#addToFavouritesBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="blue-button" text="Add to favourites" />
+
+            <Button fx:id="nextPuzzleBtn" onAction="#nextPuzzleBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="green-button" text="Next puzzle">
+                <VBox.margin>
+                    <Insets top="20.0" />
+                </VBox.margin>
+            </Button>
+            <Button onAction="#mainMenuBtnClick" prefHeight="40.0" prefWidth="220.0" styleClass="green-button" text="Main menu" />
+        </VBox>
+
+    </HBox>
+</VBox>
